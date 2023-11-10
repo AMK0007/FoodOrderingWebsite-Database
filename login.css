@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fc8803;
+}
+.bg0
+.login-container {
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 300px;
+    padding: 16px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 5px 0px grey;
+}
+
+.login-container h1 {
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.login-container label {
+    color: #4a4a4a;
+}
+
+.login-container input {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.login-container input[type="text"]:focus, .login-container input[type="password"]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.login-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20;
+}
